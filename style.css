@@ -21,6 +21,7 @@ p{
     padding-bottom: 100px;
     background-size: cover;
     overflow: hidden;
+    background-image: linear-gradient(to bottom right, rgb(235, 142, 142) , rgb(111, 111, 218));
 }
 #section-area-one header{}
 .introduce-area{
@@ -29,11 +30,17 @@ p{
 }
 .introduce-area h1{}
 .introduce-area span{
-    color: #EC4C76;
-    font-weight: 700;
+    color:#fff;
+    font-family: "lato", sans-serif;
+    font-weight: 500;
 }
 .introduce-area p{
     margin-bottom: 50px;
+    color: #fff;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
 }
 .link-button{
     color: #fff;
@@ -56,30 +63,30 @@ p{
     padding-top: 80px;
     padding-bottom: 100px;
 }
-.biography-area{
+.about{
     width: 50%;
     float: left;
 }
-.biography-area img{
+.about img{
     width: 80%;
 }
-.biography-area h1{}
-.biography-area p{
+
+
+.about p{
     margin-bottom: 50px;
 }
 /* End section-area-two */
 
 /* Start section-area-three */
 #section-area-three{
+    text-align: center;
     overflow: hidden;
     background-size: cover;
     padding-top: 80px;
     padding-bottom: 100px;
     background-color: #F8F9FC;
 }
-.work-area{
-    /* width: 33%;
-    float: left; */
+
 }
 .work-area h1{
     text-align: center;
@@ -143,11 +150,34 @@ p{
     margin-top: 50px;
     margin-bottom: 50px;
 }
-#section-area-five footer{}
+#section-area-five footer{
+    width: 50%;
+    margin: 0 auto;
+}
 #section-area-five footer h3{
     text-align: center;
+    color: grey;
+    
+    
 }
-#section-area-five footer h4{
+.hello{
+    
     text-align: center;
+
+}
+
+.f-icons{
+    width: 50%;
+    margin: 0 auto;
+        
+}
+.icon-img{
+    width: 70%;
+    margin: 0 auto;
+}
+.icon-img img{
+    width: 40px;
+    margin: 0 0 0 25px
+    
 }
 /* End section-area-five */
