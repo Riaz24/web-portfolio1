@@ -17,7 +17,6 @@ p{
 }
 /* Start section-area-one */
 #section-area-one{
-    background: url(images/header-bg.png);
     padding-top: 80px;
     padding-bottom: 100px;
     background-size: cover;
@@ -52,7 +51,6 @@ p{
 
 /* Start section-area-two */
 #section-area-two{
-    background: url(images/biography-bg.png);
     background-size: cover;
     overflow: hidden;
     padding-top: 80px;
@@ -73,61 +71,70 @@ p{
 
 /* Start section-area-three */
 #section-area-three{
-    background: url(images/latest-work-bg.png);
     overflow: hidden;
     background-size: cover;
     padding-top: 80px;
     padding-bottom: 100px;
-
+    background-color: #F8F9FC;
 }
-.work-area{}
+.work-area{
+    /* width: 33%;
+    float: left; */
+}
 .work-area h1{
     text-align: center;
 }
-.work-area img{
-    width: 33%;
+.project{
     float: left;
+    width: 33%;
 }
+.project img{
+    width: 100%;
+}
+.box{
+    background-color: #fff;
+    padding: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #888888;
+}
+
 /* End section-area-three */
 
 /* Start section-area-four */
 #section-area-four{
-    background: url(images/latest-work-bg.png);
-    overflow: hidden;
-    background-size: cover;
     padding-top: 80px;
     padding-bottom: 100px;
     text-align: center;
 }
-.client-area{}
-.client-area h1{}
-.client-area h2{
-    font-weight: 400;
-    margin: 0;
+.purpleBackground{
+    position: relative;
 }
-.client-area p{
-    text-align: center; 
-    margin: 0;
-    padding-bottom: 30px;
+.purpleBackground img{
+    width: 70%;
+    
 }
-.email-area{
-    margin-top: 50px;
-    margin-left: 100px;
-    width: 80%;
-    background-color: #EC4C76;
-    padding-top: 30px;
-    padding-bottom: 30px;
+.orange{
+    color: tomato;
+}
+.purpleBackgroundText h4{
     color: #fff;
+    font-size: 40px;
+    float: left;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+}
+.purpleBackgroundText button{
+    float: left;
+    position: absolute;
+    top: 80px;
+    left: 825px;
+    background-color: tomato;
+    padding: 20px 35px;
     border-radius: 5px;
-}
-.email-area h4{
-    margin: 0;
-    font-weight: 300;
-}
-.email-area a{
+    border: none;
     color: #fff;
-    text-decoration: none;
-    font-size: 30px;
 }
 /* End section-area-four */
 
@@ -137,7 +144,10 @@ p{
     margin-bottom: 50px;
 }
 #section-area-five footer{}
-#section-area-five footer p{
+#section-area-five footer h3{
+    text-align: center;
+}
+#section-area-five footer h4{
     text-align: center;
 }
 /* End section-area-five */
